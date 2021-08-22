@@ -1,0 +1,29 @@
+
+
+.gallery {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, max-content));
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 1.5rem;
+    margin: 45px auto;
+    margin-top: 10px;
+    padding: 1rem;
+}
+
+.gallery a {
+    width: 200px;
+    height: 200px;
+}
+
+#search {
+    margin: auto;
+    margin-top: 15px;
+    width: 38%;
+    height: 3.2rem;
+    border-radius: 6px;
+    border-color: rgb(221, 218, 218);
+    position: relative;
+    display: flex;
+}
